@@ -1,0 +1,14 @@
+name: sana ullah
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greetings
+        run: echo "Hello Sunny Khan"
